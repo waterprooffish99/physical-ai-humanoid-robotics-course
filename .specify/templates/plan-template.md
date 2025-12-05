@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **I. Teaching Principles**: Does the plan adhere to the pedagogical approach?
+- [ ] **II. Content Philosophy**: Is the content structure and presentation consistent with our philosophy?
+- [ ] **III. AI-Native Approach**: Does the plan leverage the AI-native features of the textbook?
+- [ ] **IV. Scope Boundaries**: Is the feature within the defined scope of the project?
+- [ ] **V. Quality Bar**: Does the plan meet the project's quality standards?
 
 ## Project Structure
 

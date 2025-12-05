@@ -1,55 +1,72 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles:
+  - PRINCIPLE_1_NAME → I. Teaching Principles
+  - PRINCIPLE_2_NAME → II. Content Philosophy
+  - PRINCIPLE_3_NAME → III. AI-Native Approach
+  - PRINCIPLE_4_NAME → IV. Scope Boundaries
+  - PRINCIPLE_5_NAME → V. Quality Bar
+- Added sections:
+  - Purpose
+  - Target Audience
+- Removed sections:
+  - SECTION_2_NAME
+  - SECTION_3_NAME
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+-->
+# Physical AI & Humanoid Robotics Course (AI-Native Textbook) Constitution
+
+## Purpose
+
+To create an AI-native textbook that teaches Physical AI and Humanoid Robotics concepts clearly, progressively, and practically, bridging the gap between digital intelligence and embodied intelligence in the physical world.
+
+## Target Audience
+
+- Students with basic programming knowledge
+- AI learners new to robotics
+- Software engineers transitioning into Physical AI
+- Beginners who have never worked with robots or ROS before
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Teaching Principles
+- Concept before tools
+- Explain “why” before “how”
+- No hardware assumptions
+- Simulation-first mindset
+- Clear mental models over code dumps
+- Real-world analogies wherever possible
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Content Philosophy
+- Each chapter must be understandable on its own
+- No unexplained jargon
+- Every major system must be explained visually and conceptually before being technical
+- Complex systems are broken into layers: brain, senses, body, environment
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. AI-Native Approach
+- The book is designed to work with an embedded AI assistant
+- AI is treated as a learning companion, not a shortcut
+- Content must be structured for retrieval, reasoning, and personalization
+- Chapters should be modular and machine-readable
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Scope Boundaries
+- This book explains systems, architectures, and workflows
+- It does not require physical robots to complete learning objectives
+- Hardware setup is explained conceptually, not enforced
+- Focus is on understanding, not hardware ownership
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### V. Quality Bar
+- Beginner-friendly but technically accurate
+- No copy-paste tutorials without explanation
+- Every diagram, block, or step must serve learning
+- If something cannot be explained simply, it must be reworked
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All contributions and reviews must verify compliance with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-05
