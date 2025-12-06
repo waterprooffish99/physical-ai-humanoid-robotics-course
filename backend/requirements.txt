@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+psycopg2-binary
+qdrant-client
+python-dotenv
+pytest
+sentence-transformers
+SQLAlchemy
